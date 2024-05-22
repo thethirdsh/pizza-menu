@@ -14,7 +14,7 @@ const Pizza = (props) => {
       />
       <p className="text-2xl font-extrabold">{pizzaName}</p>
       <p className="text-lg">{ingredients}</p>
-      <p className="text-lg">{price}</p>
+      <p className="text-lg">{`${price} $`}</p>
       <p className="text-lg">{soldOut ? "Sold out" : "Available"}</p>
     </div>
   );

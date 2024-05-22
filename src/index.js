@@ -6,14 +6,13 @@ import Footer from "./Footer";
 import MenuLine from "./MenuLine";
 import Menu from "./Menu";
 
-
 function App() {
   return (
     <div className="flex flex-col gap-40">
       <Header />
       <MenuLine />
       <Menu />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
