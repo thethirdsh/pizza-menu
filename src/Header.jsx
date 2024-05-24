@@ -1,5 +1,9 @@
 const Header = () => {
-  return <h1 className="text-7xl text-center">- Fast React Pizza Co. -</h1>;
-}
+  return (
+    <p className="text-7xl font-extrabold text-center">
+      - Fast React Pizza Co. -
+    </p>
+  );
+};
 
 export default Header;

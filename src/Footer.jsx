@@ -6,8 +6,10 @@ const Footer = () => {
   console.log(isOpen);
 
   return (
-    <footer>{new Date().toLocaleTimeString()}. We're currently open!</footer>
+    <footer className="flex justify-center items-center">
+      {new Date().toLocaleTimeString()}. We're currently open!
+    </footer>
   );
-}
+};
 
 export default Footer;

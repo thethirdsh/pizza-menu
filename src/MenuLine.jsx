@@ -1,11 +1,11 @@
 const MenuLine = () => {
   return (
-    <div className="flex flex-col justify-center items-center gap-3">
-      <hr className="border-t-2 border-black font-bold w-96" />
-      <h2 className="text-5xl text-center">Our Menu</h2>
-      <hr className="border-t-2 border-black font-bold w-96" />
+    <div className="flex flex-col justify-center items-center gap-6">
+      <hr className="border-t-4 border-black font-extrabold w-60" />
+      <p className="text-5xl font-bold tracking-wide text-center">Our Menu</p>
+      <hr className="border-t-4 border-black font-extrabold w-60" />
     </div>
   );
-}
+};
 
 export default MenuLine;
